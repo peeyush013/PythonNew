@@ -4,7 +4,7 @@ class StudentInfo2:
     standard = "12th"
 
     @classmethod
-    def changeStandard(a, newStandard):
+    def changeStandard(cls, newStandard):
         StudentInfo2.standard = newStandard
 
     # instance variable
